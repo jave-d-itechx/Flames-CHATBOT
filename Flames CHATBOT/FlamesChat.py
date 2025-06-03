@@ -31,7 +31,7 @@ class FLAMESCHAT:
         self.flames.mainloop()
 
     def API_Config(self):
-        os.environ["GEMINI_API_KEY"] = "AIzaSyDIpa9bmcKBFf8QtwPq-a7-kS3RkyhCktU"
+        os.environ["GEMINI_API_KEY"] = "#PUT YOUR API KEY IN HERE"
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
         generation_config = {
